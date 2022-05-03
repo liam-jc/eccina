@@ -352,7 +352,8 @@ section {
         height: 100vh;
     }
     .AV-text-inner {
-        padding-top: 50px;
+        font-weight: 200;
+        padding-top: 20px;
     }
     /* .AV-text-body{
         font-size: .6rem;
