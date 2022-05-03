@@ -294,7 +294,48 @@ section {
     padding: 12% 0 7% 11%;
     font-family: 'M PLUS 1 Code', sans-serif;
     z-index: 1;
-}
+
+
+    /* side-scroll animation */
+    /* -webkit-animation: animate_background 10s linear 0s infinite;
+    -moz-animation: animate_background 10s linear 0s infinite;
+    -o-animation: animate_background 10s linear 0s infinite;
+    animation: animate_background 10s linear 0s infinite; */
+    }
+    /* 
+    @-webkit-keyframes animate_background { 
+        from { 
+            background-position: 0 0;
+        } 
+        to { 
+            background-position: -200px 0;
+        } 
+    }
+    @-moz-keyframes animate_background { 
+        from { 
+            background-position: 0 0;
+        } 
+        to { 
+            background-position: -200px 0;
+        } 
+    }
+    @-o-keyframes animate_background { 
+        from { 
+            background-position: 0 0;
+        } 
+        to { 
+            background-position: -200px 0;
+        } 
+    }
+    @keyframes animate_background { 
+        from { 
+            background-position: 0 0;
+        } 
+        to { 
+            background-position: -200px 0;
+        } 
+
+    } */
 
 @media (max-width: 767px) {
     .AV-text1 {
@@ -310,7 +351,7 @@ section {
         height: 100vh;
     }
     .AV-text-inner {
-        padding-top: 100px;
+        padding-top: 50px;
     }
     /* .AV-text-body{
         font-size: .6rem;
@@ -450,7 +491,47 @@ section {
     padding: 17% 0 7% 11%;
     font-family: 'M PLUS 1 Code', sans-serif;
     z-index: -1;
-}
+
+    /* side-scroll animation */
+        /* -webkit-animation: animate_background2 20s linear 0s infinite;
+        -moz-animation: animate_background2 20s linear 0s infinite;
+        -o-animation: animate_background2 20s linear 0s infinite;
+        animation: animate_background2 20s linear 0s infinite;
+        */ } /* 
+        @-webkit-keyframes animate_background2 { 
+            from { 
+                background-position: 0 0;
+            } 
+            to { 
+                background-position: 600px 0;
+            } 
+        }
+        @-moz-keyframes animate_background2 { 
+            from { 
+                background-position: 0 0;
+            } 
+            to { 
+                background-position: 600px 0;
+            } 
+        }
+        @-o-keyframes animate_background2 { 
+            from { 
+                background-position: 0 0;
+            } 
+            to { 
+                background-position: 600px 0;
+            } 
+        }
+        @keyframes animate_background2 { 
+            from { 
+                background-position: 0 0;
+            } 
+            to { 
+                background-position: 600px 0;
+            } 
+
+        } */
+
 
 .text-black-box {
     background-color: black;
@@ -481,7 +562,7 @@ section {
 @media (max-width: 400px) {
     .Music-text-box-1 {
         /* margin: 30% 5% 10% 5%; */
-        padding: 32% 5% 12% 5%;
+        padding: 20% 5% 12% 5%;
         height: 100vh;
     }
 }
