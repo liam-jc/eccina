@@ -563,7 +563,7 @@ section {
     .Music-text-box-1 {
         /* margin: 30% 5% 10% 5%; */
         padding: 20% 5% 12% 5%;
-        height: 100vh;
+        /* height: 85vh; */
     }
 }
 
@@ -616,8 +616,9 @@ section {
 
 @media (max-width: 400px) {
     .Music-img1 {
-        /* width: 200px; */
-        padding: 0 5% 12% 5%;
+        width: 200px;
+        height: 200px;
+        padding: 0 5% 2% 5%;
     }
 }
 
