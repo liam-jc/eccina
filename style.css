@@ -260,6 +260,7 @@ section {
     background-color: #C3C3FA;
     border: 1px solid white;
     font-weight: 400;
+    padding: 3px;
 }
 
 .yt-video {
@@ -500,7 +501,53 @@ section {
     }
 } */
 
+/* .Music-sidescroll-2 {
+    background-image: url("./assets/Landing-background-sm.png");
+    color: white;
+    padding: 10px 0 0 0;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    z-index: -1; */
 
+    /* side-scroll animation */
+        /* -webkit-animation: animate_background3 10s linear 0s infinite;
+        -moz-animation: animate_background3 10s linear 0s infinite;
+        -o-animation: animate_background3 10s linear 0s infinite;
+        animation: animate_background3 10s linear 0s infinite;
+}
+        @-webkit-keyframes animate_background3 { 
+            from { 
+                background-position: 0 0;
+            } 
+            to { 
+                background-position: -600px 0;
+            } 
+        }
+        @-moz-keyframes animate_background3 { 
+            from { 
+                background-position: 0 0;
+            } 
+            to { 
+                background-position: -600px 0;
+            } 
+        }
+        @-o-keyframes animate_background3 { 
+            from { 
+                background-position: 0 0;
+            } 
+            to { 
+                background-position: -600px 0;
+            } 
+        }
+        @keyframes animate_background3 { 
+            from { 
+                background-position: 0 0;
+            } 
+            to { 
+                background-position: -600px 0;
+            } 
+
+        } */
+    
 
 .Music-text-box-1 {
     background-image: url("./assets/Music-background-sm.png");
@@ -515,7 +562,7 @@ section {
         -moz-animation: animate_background2 20s linear 0s infinite;
         -o-animation: animate_background2 20s linear 0s infinite;
         animation: animate_background2 20s linear 0s infinite;
-        */ } /* 
+}
         @-webkit-keyframes animate_background2 { 
             from { 
                 background-position: 0 0;
@@ -549,7 +596,7 @@ section {
             } 
 
         } */
-
+    }
 
 .text-black-box {
     background-color: black;
@@ -613,6 +660,7 @@ section {
 .Music-text-body {
     z-index: 999;
     font-weight: 400;
+    padding: 3px;
 }
 
 .Music-text-buy {
