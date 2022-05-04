@@ -259,6 +259,7 @@ section {
 .text-purple-box {
     background-color: #C3C3FA;
     border: 1px solid white;
+    font-weight: 400;
 }
 
 .yt-video {
@@ -611,6 +612,7 @@ section {
 
 .Music-text-body {
     z-index: 999;
+    font-weight: 400;
 }
 
 .Music-text-buy {
