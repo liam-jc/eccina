@@ -1,6 +1,10 @@
 body {
-    font-weight: 100;
+    /* font-weight: 200; */
     overflow: hidden;
+}
+
+h1 {
+    font-weight: 100;
 }
 
 p {
@@ -385,6 +389,7 @@ section {
     position: relative;
     left: -3px;
     font-family: 'M PLUS 1 Code', sans-serif;
+    font-weight: 200;
 }
 
 @media (min-width: 2000px) {
