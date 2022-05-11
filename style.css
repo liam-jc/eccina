@@ -25,8 +25,6 @@ section {
     line-height: 20px;
 }
 
-
-
 .scroll-anchor {
     z-index: -3;
     color: white;
@@ -84,7 +82,6 @@ section {
 @media (min-width: 2000px) {
     .logo {
         font-size: 6rem;
-        /* line-height: 10rem; */
     }
 }
 
@@ -107,7 +104,6 @@ section {
     color: white;
     font-size: 3rem;
     transform: scale(1, 1);
-    /* margin-right: 15px; */
     transition: 0.3s;
     position: absolute;
     right: 20px;
@@ -147,11 +143,9 @@ section {
     background-color: #f99aaf;
 }
 
-.color-section {
-    
+.color-section {  
     /* background-image: url("./assets/Landing-background-sm.png"); */
     height: 100vh;
-
 }
 
 .home-menu {
@@ -223,225 +217,9 @@ section {
         right: 10px;
         top: 60px;
     }
-    /* .color-section {
-    
-        background-image: url("./assets/Landing-background.png");
-    
-    } */
 }
 
-
-
-/*Page 2 - A/V*/
-
-#AV-sectionID{
-    background-color: #C3C3FA;
-}
-
-.AV-section {
-    font-family: 'M PLUS 1 Code', sans-serif;
-    
-    /* background-color: #C3C3FA; */
-    padding: 5% 0;
-}
-
-.AV-background-text {
-    font-family: 'M PLUS 1 Code', sans-serif;
-    line-height: .1rem;
-    position: relative;
-    font-size: 15rem;
-    color: #FAFAFA;
-    top: -500px;
-    left: 30px;
-    opacity: 15%;
-}
-
-.text-purple-box {
-    background-color: #C3C3FA;
-    border: 1px solid white;
-    font-weight: 400;
-    padding: 3px;
-}
-
-.yt-video {
-    margin: 4% 0 0 2%;
-}
-
-@media (max-width: 990px) {
-    .AV-background-text {
-        font-size: 6rem;
-        text-align: center;
-        left: -5px;
-        top: -500px;
-    }
-
-    .yt-video {
-        width: 100%;
-        margin: 0;
-    }
-}
-
-@media (max-width: 1540px) {
-    @media (min-width: 990px) {
-        .AV-background-text {
-            top: -400px;
-        }
-    }
-}
-
-/* @media (max-width: 550px) {
-    .AV-background-text {
-        top: -600px;
-
-    }
-} */
-
-@media (max-width: 580px) {
-    .yt-video {
-        width: 100%;
-        height: 150px;
-    }
-}
-
-.AV-text1 {
-    color: white;
-    /* background-color: #C3C3FA; */
-    background-image: url("./assets/AV-background-sm.png");
-    background-size: 40px;
-    /* margin: 12% 0 7% 11%; */
-    padding: 12% 0 7% 11%;
-    font-family: 'M PLUS 1 Code', sans-serif;
-    z-index: 1;
-
-
-    /* side-scroll animation */
-    /* -webkit-animation: animate_background 10s linear 0s infinite;
-    -moz-animation: animate_background 10s linear 0s infinite;
-    -o-animation: animate_background 10s linear 0s infinite;
-    animation: animate_background 10s linear 0s infinite; */
-    }
-    /* 
-    @-webkit-keyframes animate_background { 
-        from { 
-            background-position: 0 0;
-        } 
-        to { 
-            background-position: -200px 0;
-        } 
-    }
-    @-moz-keyframes animate_background { 
-        from { 
-            background-position: 0 0;
-        } 
-        to { 
-            background-position: -200px 0;
-        } 
-    }
-    @-o-keyframes animate_background { 
-        from { 
-            background-position: 0 0;
-        } 
-        to { 
-            background-position: -200px 0;
-        } 
-    }
-    @keyframes animate_background { 
-        from { 
-            background-position: 0 0;
-        } 
-        to { 
-            background-position: -200px 0;
-        } 
-
-    } */
-
-@media (max-width: 767px) {
-    .AV-text1 {
-        /* margin: 12% 2% 10% 2%; */
-        padding: 20% 2% 10% 2%;
-    }
-}
-
-@media (max-width: 400px) {
-    .AV-text1 {
-        /* margin: 10% 2% 10% 2%; */
-        padding: 20% 2% 10% 2%;
-        height: 100vh;
-    }
-    .AV-text-inner {
-        font-weight: 200;
-        padding-top: 20px;
-    }
-    /* .AV-text-body{
-        font-size: .6rem;
-    } */
-}
-
-.AV-text-title {
-    position: relative;
-    left: -4px;
-    font-family: 'M PLUS 1 Code', sans-serif;
-    z-index: 1;
-    border-bottom: 13px solid #f99aaf;
-    line-height: 13px;
-}
-
-
-
-.AV-text-download {
-    position: relative;
-    left: -3px;
-    font-family: 'M PLUS 1 Code', sans-serif;
-    font-weight: 200;
-}
-
-@media (min-width: 2000px) {
-    .AV-text-title {
-        font-size: 4rem;
-    }
-    /* .AV-text1 {
-        font-size: 1rem;
-        background-image: url("./assets/AV-background.png");
-    } */
-    .AV-text-download {
-        font-size: 1rem;
-    }
-    .yt-video {
-        margin: 0 0 0 22%;
-        width: 700px;
-        height: 400px;
-    }
-}
-
-@media (min-width: 3999px) {
-    .AV-text-title {
-        font-size: 6rem;
-    }
-    p {
-        font-size: 2rem;
-    }
-    .AV-text-download {
-        font-size: 2rem;
-    }
-    .yt-video {
-        /* margin: 0 0 0 22%; */
-        width: 1400px;
-        height: 800px;
-    }
-    .AV-background-text {
-        font-size: 30rem;
-    }
-}
-
-.AV-video1 {
-    width: 100%;
-    position: relative;
-    top: 7px;
-    left: -1px;
-    z-index: -1;
-}
-
-/*Page 3 - Music*/
+/*Page 2 - Music*/
 
 #Music-sectionID {
     background-color: black;
@@ -452,7 +230,6 @@ section {
     position: relative;
     font-size: 13rem;
     color: white;
-    /* background-color: black; */
     opacity: 20%;
     top: 100px;
     right: 60px;
@@ -486,171 +263,35 @@ section {
         transform: rotate(0deg);
         left: -5px;
         top: 100px;
-        /* top: 10%;
-        font-size: 8rem; */
-        /* opacity: 15%; */
     }
 }
-
-/* @media (max-width: 340px) {
-
-    .Music-background-text {
-        transform: rotate(0deg);
-        left: -5px;
-        top: 50px;
-        
-    }
-} */
-
-/* .Music-sidescroll-2 {
-    background-image: url("./assets/Landing-background-sm.png");
-    color: white;
-    padding: 10px 0 0 0;
-    font-family: 'M PLUS 1 Code', sans-serif;
-    z-index: -1; */
-
-    /* side-scroll animation */
-        /* -webkit-animation: animate_background3 10s linear 0s infinite;
-        -moz-animation: animate_background3 10s linear 0s infinite;
-        -o-animation: animate_background3 10s linear 0s infinite;
-        animation: animate_background3 10s linear 0s infinite;
-}
-        @-webkit-keyframes animate_background3 { 
-            from { 
-                background-position: 0 0;
-            } 
-            to { 
-                background-position: -600px 0;
-            } 
-        }
-        @-moz-keyframes animate_background3 { 
-            from { 
-                background-position: 0 0;
-            } 
-            to { 
-                background-position: -600px 0;
-            } 
-        }
-        @-o-keyframes animate_background3 { 
-            from { 
-                background-position: 0 0;
-            } 
-            to { 
-                background-position: -600px 0;
-            } 
-        }
-        @keyframes animate_background3 { 
-            from { 
-                background-position: 0 0;
-            } 
-            to { 
-                background-position: -600px 0;
-            } 
-
-        } */
-    
 
 .Music-text-box-1 {
     background-image: url("./assets/Music-background-sm.png");
     background-size: 60px;
     color: white;
-    /* background-color: black; */
     padding: 17% 0 7% 11%;
     font-family: 'M PLUS 1 Code', sans-serif;
     z-index: -1;
-
-    /* side-scroll animation */
-        /* -webkit-animation: animate_background2 20s linear 0s infinite;
-        -moz-animation: animate_background2 20s linear 0s infinite;
-        -o-animation: animate_background2 20s linear 0s infinite;
-        animation: animate_background2 20s linear 0s infinite;
 }
-        @-webkit-keyframes animate_background2 { 
-            from { 
-                background-position: 0 0;
-            } 
-            to { 
-                background-position: 600px 0;
-            } 
-        }
-        @-moz-keyframes animate_background2 { 
-            from { 
-                background-position: 0 0;
-            } 
-            to { 
-                background-position: 600px 0;
-            } 
-        }
-        @-o-keyframes animate_background2 { 
-            from { 
-                background-position: 0 0;
-            } 
-            to { 
-                background-position: 600px 0;
-            } 
-        }
-        @keyframes animate_background2 { 
-            from { 
-                background-position: 0 0;
-            } 
-            to { 
-                background-position: 600px 0;
-            } 
-
-        } */
-    }
 
 .text-black-box {
     background-color: black;
     border: 1px solid white;
 }
 
-/* @media (max-width: 767px) {
-    .Music-text-box-1 {
-        margin: 0 5% 10% 5%;
-        padding: 0 0 2% 0;
-    }
-} */
-
 @media (max-width: 990px) {
     .Music-text-box-1 {
-        /* margin: 0 5% 10% 5%; */
         padding: 12% 5% 12% 5%;
     }
 }
 
-/* @media (max-width: 550px) {
-    .Music-text-box-1 {
-        margin: 30% 5% 10% 5%;
-        padding: 12% 0 2% 0;
-    }
-} */
-
 @media (max-width: 400px) {
     .Music-text-box-1 {
-        /* margin: 30% 5% 10% 5%; */
         padding: 20% 5% 12% 5%;
         height: 100vh;
     }
 }
-
-
-.Music-text-box-1-animation {
-    /*Button carousel animation*/
-    animation: cssAnimation 1s ease-in-out both;
-}
-
-@keyframes cssAnimation {
-    0% {
-        -webkit-transform: translateX(0px);
-    }
-
-    100% {
-        -webkit-transform: translateX(-100%);
-    }
-}
-
-
 
 .Music-text-title {
     position: relative;
@@ -737,122 +378,199 @@ section {
     }
 }
 
-
-
-
 @media (max-width: 400px) {
     .bandcamp-player {
         width: 200px;
     }
 }
 
+/*Page 3 - A/V*/
 
-
-/*Page 3 - Web*/
-
-.Web-section {
-    text-align: center;
+#AV-sectionID{
     background-color: #C3C3FA;
-    z-index: -10;
-    padding: 5%;
 }
 
-.web-img-block {
+.AV-section {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    padding: 5% 0;
+}
+
+.AV-background-text {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    line-height: .1rem;
+    position: relative;
+    font-size: 15rem;
+    color: #FAFAFA;
+    top: -500px;
+    left: 30px;
+    opacity: 15%;
+}
+
+.text-purple-box {
+    background-color: #C3C3FA;
+    border: 1px solid white;
+    font-weight: 400;
+    padding: 3px;
+}
+
+.yt-video {
+    margin: 4% 0 0 2%;
+}
+
+@media (max-width: 990px) {
+    .AV-background-text {
+        font-size: 6rem;
+        text-align: center;
+        left: -5px;
+        top: -500px;
+    }
+
+    .yt-video {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1540px) {
+    @media (min-width: 990px) {
+        .AV-background-text {
+            top: -400px;
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    .yt-video {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+.AV-text1 {
+    color: white;
+    background-image: url("./assets/AV-background-sm.png");
+    background-size: 40px;
+    padding: 12% 0 7% 11%;
+    font-family: 'M PLUS 1 Code', sans-serif;
     z-index: 1;
+
+
+    /* side-scroll animation */
+    /* -webkit-animation: animate_background 10s linear 0s infinite;
+    -moz-animation: animate_background 10s linear 0s infinite;
+    -o-animation: animate_background 10s linear 0s infinite;
+    animation: animate_background 10s linear 0s infinite; */
+    }
+    /* 
+    @-webkit-keyframes animate_background { 
+        from { 
+            background-position: 0 0;
+        } 
+        to { 
+            background-position: -200px 0;
+        } 
+    }
+    @-moz-keyframes animate_background { 
+        from { 
+            background-position: 0 0;
+        } 
+        to { 
+            background-position: -200px 0;
+        } 
+    }
+    @-o-keyframes animate_background { 
+        from { 
+            background-position: 0 0;
+        } 
+        to { 
+            background-position: -200px 0;
+        } 
+    }
+    @keyframes animate_background { 
+        from { 
+            background-position: 0 0;
+        } 
+        to { 
+            background-position: -200px 0;
+        } 
+
+    } */
+
+@media (max-width: 767px) {
+    .AV-text1 {
+        padding: 20% 2% 10% 2%;
+    }
 }
 
-.Web-img1 {
-    width: 100%;
+@media (max-width: 400px) {
+    .AV-text1 {
+        padding: 20% 2% 10% 2%;
+        height: 100vh;
+    }
+    .AV-text-inner {
+        font-weight: 200;
+        padding-top: 20px;
+    }
 }
 
-.web-iframe {
-    width: 50%;
-    overflow: hidden;
-    background-color: white;
-    border: black 1px solid;
-}
-
-.iframe-container {
-    height: 500px;
-}
-
-.Web-content-box-1 {
-    margin: 10% 0 10% 0;
-}
-
-.web-text-block {
-    margin: 5% 0 0 0;
-    text-align: right;
-    z-index: 1;
-}
-
-.Web-text-title {
+.AV-text-title {
     position: relative;
     left: -4px;
     font-family: 'M PLUS 1 Code', sans-serif;
     z-index: 1;
-    color: white;
+    border-bottom: 13px solid #f99aaf;
+    line-height: 13px;
 }
 
-.Web-text-body {
-    z-index: 999;
-    font-family: 'M PLUS 1 Code', sans-serif;
-    z-index: 1;
-    color: white;
-}
-
-.Web-text-download {
+.AV-text-download {
     position: relative;
     left: -3px;
     font-family: 'M PLUS 1 Code', sans-serif;
-    z-index: 1;
-    color: white;
+    font-weight: 200;
 }
 
-.Web-background-text {
-    line-height: .1rem;
-    position: relative;
-    font-size: 15rem;
-    color: blue;
-    top: 100px;
-    left: -300px;
-    opacity: 3%;
-}
-
-@media (max-width: 1200px) {
-    .Web-background-text {
-        left: 0px;
+@media (min-width: 2000px) {
+    .AV-text-title {
+        font-size: 4rem;
+    }
+    .AV-text-download {
+        font-size: 1rem;
+    }
+    .yt-video {
+        margin: 0 0 0 22%;
+        width: 700px;
+        height: 400px;
     }
 }
 
-@media (max-width: 630px) {
-    .Web-background-text {
-        font-size: 12rem;
-    }
-}
-
-@media (max-width: 500px) {
-    .Web-background-text {
-        font-size: 10rem;
-    }
-}
-
-@media (max-width: 410px) {
-    .Web-background-text {
-        font-size: 8rem;
-    }
-    .Web-content-box-1 {
-        margin: 50% 1% 10% 0;
-    }
-}
-
-@media (max-width: 330px) {
-    .Web-background-text {
+@media (min-width: 3999px) {
+    .AV-text-title {
         font-size: 6rem;
     }
+    p {
+        font-size: 2rem;
+    }
+    .AV-text-download {
+        font-size: 2rem;
+    }
+    .yt-video {
+        width: 1400px;
+        height: 800px;
+    }
+    .AV-background-text {
+        font-size: 30rem;
+    }
 }
 
-/*Page 5 - Contact*/
+.AV-video1 {
+    width: 100%;
+    position: relative;
+    top: 7px;
+    left: -1px;
+    z-index: -1;
+}
+
+/*Page 4 - Contact*/
 
 #Contact-sectionID {
     background-color: #f99aaf;
@@ -903,10 +621,7 @@ section {
     height: 100vh;
     font-family: 'VT323', monospace;
     z-index: 2;
-    /* background-color: #f99aaf; */
 }
-
-
 
 .darker-blue-text {
     color: blue;
